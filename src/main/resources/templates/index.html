@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+//            alert("测试数据")
+        });
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="page-header">
+                <h1>
+                    商品管理系统
+                    <small>made by <h2 th:text="${user.username}"></h2>></small>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
